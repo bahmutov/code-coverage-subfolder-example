@@ -6,7 +6,9 @@
   "scripts": {
     "test": "cypress run",
     "cypress:open": "cypress open",
-    "cypress:run": "cypress run"
+    "cypress:run": "cypress run",
+    "precc:instrument": "rm -rf instrumented",
+    "cc:instrument": "cp -r app instrumented && nyc instrument --compact false app instrumented"
   },
   "repository": {
     "type": "git",
@@ -23,6 +25,9 @@
   },
   "homepage": "https://github.com/bahmutov/code-coverage-subfolder-example#readme",
   "devDependencies": {
-    "cypress": "3.8.1"
+    "@cypress/code-coverage": "1.10.4",
+    "cypress": "3.8.1",
+    "istanbul-lib-coverage": "3.0.0",
+    "nyc": "15.0.0"
   }
 }

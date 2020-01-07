@@ -3,6 +3,6 @@
 /// <reference types="Cypress" />
 
 it('loads app', () => {
-  cy.visit('app/index.html')
+  cy.visit('instrumented/index.html')
   cy.contains('greetings').should('be.visible')
 })
