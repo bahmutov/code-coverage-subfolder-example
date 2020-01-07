@@ -1,4 +1,4 @@
-# code-coverage-subfolder-example
+# code-coverage-subfolder-example [![renovate-app badge][renovate-badge]][renovate-app]
 
 The web "app" is located in [app](app) folder. First, you need to instrument it using
 
@@ -22,5 +22,7 @@ $ open coverage/lcov-report/index.html
 
 ![Coverage information](images/main.png)
 
-
 See [Cypress Code Coverage Guide](https://on.cypress.io/code-coverage) and [cypress-io/code-coverage](https://github.com/cypress-io/code-coverage) for more information.
+
+[renovate-badge]: https://img.shields.io/badge/renovate-app-blue.svg
+[renovate-app]: https://renovateapp.com/
