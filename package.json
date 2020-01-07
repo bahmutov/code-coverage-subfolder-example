@@ -1,0 +1,26 @@
+{
+  "name": "code-coverage-subfolder-example",
+  "version": "1.0.0",
+  "description": "Example collecting web app code coverage from Cypress end-to-end tests where app is in subfolder",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bahmutov/code-coverage-subfolder-example.git"
+  },
+  "keywords": [
+    "cypress-example",
+    "code-coverage"
+  ],
+  "author": "Gleb Bahmutov <gleb.bahmutov@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bahmutov/code-coverage-subfolder-example/issues"
+  },
+  "homepage": "https://github.com/bahmutov/code-coverage-subfolder-example#readme",
+  "devDependencies": {
+    "cypress": "3.8.1"
+  }
+}
