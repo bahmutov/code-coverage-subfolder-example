@@ -1,4 +1,4 @@
-# code-coverage-subfolder-example [![renovate-app badge][renovate-badge]][renovate-app]
+# code-coverage-subfolder-example [![renovate-app badge][renovate-badge]][renovate-app] [![CircleCI](https://circleci.com/gh/bahmutov/code-coverage-subfolder-example/tree/master.svg?style=svg)](https://circleci.com/gh/bahmutov/code-coverage-subfolder-example/tree/master)
 
 The web "app" is located in [app](app) folder. First, you need to instrument it using
 
