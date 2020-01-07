@@ -8,7 +8,8 @@
     "cypress:open": "cypress open",
     "cypress:run": "cypress run",
     "precc:instrument": "rm -rf instrumented",
-    "cc:instrument": "cp -r app instrumented && nyc instrument --compact false app instrumented"
+    "cc:instrument": "cp -r app instrumented && nyc instrument --compact false app instrumented",
+    "cc:report": "nyc report --check-coverage --lines 75"
   },
   "repository": {
     "type": "git",
