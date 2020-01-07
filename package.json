@@ -4,7 +4,9 @@
   "description": "Example collecting web app code coverage from Cypress end-to-end tests where app is in subfolder",
   "main": "index.js",
   "scripts": {
-    "test": "cypress run"
+    "test": "cypress run",
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run"
   },
   "repository": {
     "type": "git",
